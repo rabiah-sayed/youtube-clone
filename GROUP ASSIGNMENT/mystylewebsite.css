@@ -1,0 +1,123 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Login Container Styles */
+.login-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Logo Styles */
+.login-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Login Form Styles */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form input:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #1a944d;
+}
+
+.forgot-password {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.create-account {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: #1db954;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}
+.facebook-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facebook-btn:hover {
+    background-color: #2f477a;
+}
+.google-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    background-color: #2f477a;
+}
+
+h2{text-align: center;
+}
+
+body, html {
+    background: url("spotifybg.jpeg");
+}
+
