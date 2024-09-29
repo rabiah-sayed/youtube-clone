@@ -1,2 +1,2 @@
-# spotify-clone
-spotify-clone
+# youtube-clone
+youtube-clone
