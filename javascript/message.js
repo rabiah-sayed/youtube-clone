@@ -1,4 +1,10 @@
-function msg(){
-    alert("hello javatpoint");
+function msg1(){
+    alert("Rabiah Mateen Sayed");
     }
-    document.write("Hello JavaScript by JavaScript");
+   function msg2(){
+        alert("SICSR");
+        }
+       function msg3(){
+            alert("BCA");
+            }
+    // document.write("Hello JavaScript by JavaScript");
