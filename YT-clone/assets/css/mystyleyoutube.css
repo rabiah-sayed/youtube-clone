@@ -165,7 +165,7 @@ body {
   }
   
   .sidebar {
-    width: 210px;
+    width: 240px;
     position: fixed;
     top: 56px;
     left: 0;
@@ -182,7 +182,7 @@ body {
   
   .sidebar__section h3 {
     padding: 8px 24px;
-    font-size: 10px;
+    font-size: 1px;
     text-transform: uppercase;
     color: rgb(96, 96, 96);
   }
