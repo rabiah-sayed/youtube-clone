@@ -27,7 +27,6 @@
         <div class="navigation__search">
             <!-- search field -->
             <input type="search" placeholder="Search">
-
             <!-- search button -->
             <button class="navigation__button navigation__search__icon">
                 <svg viewBox="0 0 24 24" class="navigation__icon">
@@ -63,10 +62,11 @@
 
     <!-- chips -->
     <div class="chips">
-        <div class="chips__item chips__item--selected">
+        <div class="chips__item">
             Downloads
         </div>
-         <div class="chips__item">
+         <div class="chips__item chips__item--selected">
+            <a href="ytlibliked.html"></a>
            Liked 
         </div>
         <!--<div class="chips__item">
@@ -182,14 +182,24 @@
                     Live
                 </span>
             </a>
-            <a href="/" class="sidebar__section__link">
+            <a href="ytlearning.html" class="sidebar__section__link">
                 <svg viewBox="0 0 24 24"><g><path d="M9 21c0 .5.4 1 1 1h4c.6 0 1-.5 1-1v-1H9v1zm3-19C8.1 2 5 5.1 5 9c0 2.4 1.2 4.5 3 5.7V17c0 .5.4 1 1 1h6c.6 0 1-.5 1-1v-2.3c1.8-1.3 3-3.4 3-5.7 0-3.9-3.1-7-7-7z"></path></g></svg>
                 <span>
                     Learning
                 </span>
             </a>
-            <a href="/" class="sidebar__section__link">
-                <svg viewBox="0 0 24 24"><g><path d="M6.85 7.76V6.18H1v2.88c0 2.35 1.9 4.26 4.26 4.26h1.59v-1.59H5.4a2.81 2.81 0 01-2.81-2.8V7.75h4.26zM17.15 7.76V6.18H23v2.88c0 2.35-1.9 4.26-4.26 4.26h-1.59v-1.59h1.45a2.81 2.81 0 002.81-2.8V7.75h-4.26z"></path><path d="M12 17.29a6.87 6.87 0 01-6.87-6.87V3h13.74v7.42c0 3.8-3.07 6.87-6.87 6.87z"></path><path d="M12 17.29V3h6.87v7.42c0 3.8-3.07 6.87-6.87 6.87zM12 17.29l4.13 2.38H7.88L12 17.3zM16.13 19.67H7.88v2.38h8.25v-2.38z"></path></g></svg>
+            <a class="sidebar__section__link" href="ytsports.html">
+                <svg viewBox="0 0 24 24">
+                    <g>
+                        <path
+                            d="M6.85 7.76V6.18H1v2.88c0 2.35 1.9 4.26 4.26 4.26h1.59v-1.59H5.4a2.81 2.81 0 01-2.81-2.8V7.75h4.26zM17.15 7.76V6.18H23v2.88c0 2.35-1.9 4.26-4.26 4.26h-1.59v-1.59h1.45a2.81 2.81 0 002.81-2.8V7.75h-4.26z">
+                        </path>
+                        <path d="M12 17.29a6.87 6.87 0 01-6.87-6.87V3h13.74v7.42c0 3.8-3.07 6.87-6.87 6.87z"></path>
+                        <path
+                            d="M12 17.29V3h6.87v7.42c0 3.8-3.07 6.87-6.87 6.87zM12 17.29l4.13 2.38H7.88L12 17.3zM16.13 19.67H7.88v2.38h8.25v-2.38z">
+                        </path>
+                    </g>
+                </svg>
                 <span>
                     Sports
                 </span>
@@ -230,8 +240,7 @@
     <main class="feed">
         <div class="feed__item">
 		  <a href="https://youtu.be/VhdFzbeBA20?si=8--IGYXYfFyE8kBv"><!--yt video-->
-            <div class="feed__item__thumbnail"><img src="https://i.ytimg.com/vi/yeJVmaW1w3I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrNHJFqP9KM7Rilv4UQ3yh5IgHdw"></div><!--yt thumnail video-->
-            <div class="feed__item__thumbnail"><img src=""></div><!--yt thumnail video-->
+            <div class="feed__item__thumbnail"><img src="https://fulminofan.com/wp-content/uploads/2023/03/Nish-Hair-with-Parul-Gulati-on-Shark-Tank-India.jpg"></div><!--yt thumnail video-->
             </a>
 			<div class="feed__item__info">
                 <div class=""><img class="feed__item__info__avatar" alt=""  src="data:image/jpeg;base64,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"> </div><!--yt account logo-->
@@ -246,139 +255,141 @@
         </div>
 
 		 <div class="feed__item">
-		  <a href="https://www.youtube.com/watch?v=G5AamksGoNU">
-            <div class="feed__item__thumbnail"><img src="https://i.ytimg.com/vi/G5AamksGoNU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeO9nAABKPsyNyBzDMlDmJgu9jWQ"></div>
+		  <a href="https://youtu.be/nzyJSKUadxo?si=TLNa2Yofi0xL8QKI">
+            <div class="feed__item__thumbnail"><img src="https://th.bing.com/th/id/OIP.E_hp8ITI2YcIluQ38vhEgAHaEK?w=328&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7"></div>
             </a>
 			<div class="feed__item__info">
-                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://logos-world.net/wp-content/uploads/2023/06/ZHC-Logo.png"> </div>
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.googleusercontent.com/0k-Je7CSiirmyoM56COBr3iSmGjAgZIWcuaMhAxdWr3KrPx-Jqs0dAGt9FOkjwAF9GPgeudc-A=s160-c-k-c0x00ffffff-no-rj"> </div>
                 <div>
                     <h3>
-                      <a href="https://www.youtube.com/watch?v=G5AamksGoNU">  Create a Budget App in Vue Js|<br> Best Budget app UI |</a>
+                      <a href="https://youtu.be/nzyJSKUadxo?si=TLNa2Yofi0xL8QKI">Mickey's visit to farm 🌽 | Mickey Mouse Funhouse | S1 EP 23 | @disneyindia</a>
                     </h3>
-                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">DIGITAL CABIN</a>
-                    <p> 30K Views · 08 Aug 2021</p>
+                    <a href="https://youtube.com/@disneyindia?si=KnYJpi4EQHP8riqW">Disney India</a>
+                    <p> 117K Views ·2 months ago</p>
                 </div>
             </div>
         </div>
 
        <div class="feed__item">
-	     <a href="https://www.youtube.com/watch?v=NqUQm0EGGQE">
-            <div class="feed__item__thumbnail"><img src="https://i.ytimg.com/vi/msUvvBLdUs0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCcIvi9LLsl1uL85oIbSKg13PUnrA"></div>
+	     <a href="https://youtu.be/LK7-_dgAVQE?si=-nW1sL56AYT-55nd">
+            <div class="feed__item__thumbnail"><img src="https://th.bing.com/th/id/OIP.MlVnmMk6gFa7qsESbO3bJAHaEK?w=295&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"></div>
             </a>
 			<div class="feed__item__info">
-                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/E9K3kX2Qg8DzIx47y4m5ypWrwDA75QvYT-KOzOqItawbQqgfnB7HQtxdRvqPjIhZ7vUeat1ryQ=s48-c-k-c0x00ffffff-no-rj"> </div>
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://th.bing.com/th/id/OIP.ncdTvh3XdWHsXvQS-kBa-gHaHa?w=152&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"> </div>
                 <div>
                     <h3>
-                        <a href="https://www.youtube.com/watch?v=NqUQm0EGGQE">Glassmorphism Design <br> Using [ HTML CSS JS ] </a>
+                        <a href="https://youtu.be/LK7-_dgAVQE?si=-nW1sL56AYT-55nd">Tauba Tauba | Bad Newz | Vicky Kaushal | Triptii Dimri | Karan Aujla</a>
                     </h3>
-                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">DIGITAL CABIN</a>
-                    <p> 15K Views · 18 Jul 2021</p>
+                    <a href="https://youtube.com/@saregamamusic?si=DUROQH2SbY4DyAMg">Saregama Music</a>
+                    <p> 296M Views ·3 months ago</p>
                 </div>
             </div>
         </div>
+        
 		<div class="feed__item">
             <div class="feed__item__thumbnail">
-			<a href="https://www.youtube.com/watch?v=NqUQm0EGGQE">
-			<img src="https://i.ytimg.com/vi/NqUQm0EGGQE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCupyFE5cDNxP4jsPXeiMOwpu6L2A"></div>
+			<a href="https://youtu.be/3WuW1fcMTOo?si=0RglNkQCi6CfHsJY">
+			<img src="https://th.bing.com/th/id/OIP.ZWa1aLl6ih0SV6pgb5uQRQHaEK?w=320&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"></div>
             </a>
 			<div class="feed__item__info">
-                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/E9K3kX2Qg8DzIx47y4m5ypWrwDA75QvYT-KOzOqItawbQqgfnB7HQtxdRvqPjIhZ7vUeat1ryQ=s48-c-k-c0x00ffffff-no-rj"> </div>
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.googleusercontent.com/S3Ns5FT6e9n31Z9Cagf0j_xEc_QqZcvxuuxxvZED1N6fcs4R9XsG_XhY-6ETMseU3CDSD9CcoA=s160-c-k-c0x00ffffff-no-rj"> </div>
                 <div>
                     <h3>
-                     <a href="https://www.youtube.com/watch?v=NqUQm0EGGQE"> Top Neumorphism UI Design <br> Using Html CSS & Javascript </a>
+                     <a href="https://youtu.be/3WuW1fcMTOo?si=0RglNkQCi6CfHsJY"> I Played Fake GTA Clones 😖</a>
                     </h3>
-                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">DIGITAL CABIN</a>
-                    <p> 5.5K Views · 18 Jul 2021</p>
-                </div>
-            </div>
-        </div>
-
-		<div class="feed__item">
-            <div class="feed__item__thumbnail">
-			<a href="https://www.youtube.com/watch?v=YCWx73EDCAY">
-			<img src="https://i.ytimg.com/vi/YCWx73EDCAY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAwOVES0SpKS2WY8xkgo8luiLHmg"></div>
-            </a>
-			<div class="feed__item__info">
-                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/E9K3kX2Qg8DzIx47y4m5ypWrwDA75QvYT-KOzOqItawbQqgfnB7HQtxdRvqPjIhZ7vUeat1ryQ=s48-c-k-c0x00ffffff-no-rj"> </div>
-                <div>
-                    <h3>
-                     <a href="https://www.youtube.com/watch?v=YCWx73EDCAY"> Creating Movie App TMDB <br> Build  with JavaScript </a>
-                    </h3>
-                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">DIGITAL CABIN</a>
-                    <p> 5.8k Views · 05 Aug 2021</p>
+                    <a href="https://youtube.com/@mythpat?si=w69lY-8_wbqDFgM-">Mythpat </a>
+                    <p> 9.2M Views ·3 months ago</p>
                 </div>
             </div>
         </div>
 
 		<div class="feed__item">
             <div class="feed__item__thumbnail">
-			<a href="https://www.youtube.com/watch?v=JP5KxGRmnMc">
-			<img src="https://i.ytimg.com/vi/JP5KxGRmnMc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxta4mAOrhmEph_7-TKwad8Sk9tQ"></div>
+			<a href="https://youtu.be/6YMY62tMLUA?si=XJsRliZvfV76QNBI">
+			<img src="https://th.bing.com/th/id/OIP.5Gxlm58FteJ9VL6Hb1x8EgHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"></div>
             </a>
 			<div class="feed__item__info">
-                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/E9K3kX2Qg8DzIx47y4m5ypWrwDA75QvYT-KOzOqItawbQqgfnB7HQtxdRvqPjIhZ7vUeat1ryQ=s48-c-k-c0x00ffffff-no-rj"> </div>
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.googleusercontent.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s160-c-k-c0x00ffffff-no-rj"> </div>
                 <div>
                     <h3>
-                     <a href="https://www.youtube.com/watch?v=JP5KxGRmnMc">Video Streaming website<br> using Html, CSS and Js</a>
+                     <a href="https://youtu.be/6YMY62tMLUA?si=XJsRliZvfV76QNBI"> Bhool Bhulaiyaa 3 (Official Trailer): Kartik Aaryan,Vidya B,Madhuri D,Triptii | Anees B | Bhushan K </a>
                     </h3>
-                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">DIGITAL CABIN</a>
-                    <p> 1M Views · 23 Jul 2021</p>
+                    <a href="https://youtube.com/@tseries?si=FxxBLKyvWXeISB3h">T-Series</a>
+                    <p> 53M Views ·2 days ago</p>
                 </div>
             </div>
         </div>
 
 		<div class="feed__item">
             <div class="feed__item__thumbnail">
-			<a href="https://www.youtube.com/watch?v=sadCggIqDtg">
-			<img src="https://i.ytimg.com/vi/sadCggIqDtg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhb61LYac2sXO61X9-vUavmn9GQA"></div>
+			<a href="https://youtu.be/TKk-F9k5WAQ?si=mPVSWZ2lBxAIbrV7">
+			<img src="https://th.bing.com/th/id/OIP.bxZA5VfNql08LlXI4RfFhAHaEK?w=328&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7"></div>
             </a>
 			<div class="feed__item__info">
-                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/E9K3kX2Qg8DzIx47y4m5ypWrwDA75QvYT-KOzOqItawbQqgfnB7HQtxdRvqPjIhZ7vUeat1ryQ=s48-c-k-c0x00ffffff-no-rj"> </div>
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.googleusercontent.com/ytc/AIdro_l5b63dY1ZclhIZ0jUSH9zNfM3DHaP2VlBrC_oZ0ksgiy4=s160-c-k-c0x00ffffff-no-rj"> </div>
                 <div>
                     <h3>
-                     <a href="https://www.youtube.com/watch?v=sadCggIqDtg">Create a Website <br>With Video Background </a>
+                     <a href="https://youtu.be/TKk-F9k5WAQ?si=mPVSWZ2lBxAIbrV7"> Mr Bean Coffee Shop! | Mr Bean Animated season 3 | Full Episodes | Mr Bean</a>
                     </h3>
-                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">DIGITAL CABIN</a>
-                    <p> 10k Views · 11 Jul 2021</p>
+                    <a href="https://youtube.com/@mrbean?si=L9lxguK8ghDhvONk">Mr Bean</a>
+                    <p> 4.1M Views · 8 months ago</p>
                 </div>
             </div>
         </div>
 
 		<div class="feed__item">
             <div class="feed__item__thumbnail">
-			<a href="https://www.youtube.com/watch?v=DLcySA4c5s8&t=35s">
-			<img src="https://i.ytimg.com/vi/DLcySA4c5s8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsSAE1-1lXhp_hPOQqcu_buu720A"></div>
+			<a href="https://youtu.be/Fg9-YH5cp0k?si=4gNqRPblQqILjAUN">
+			<img src="https://th.bing.com/th/id/OIP.8EPcmA0Uf1nlAgo6h2qomwHaEK?w=324&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7"></div>
             </a>
 			<div class="feed__item__info">
-                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/E9K3kX2Qg8DzIx47y4m5ypWrwDA75QvYT-KOzOqItawbQqgfnB7HQtxdRvqPjIhZ7vUeat1ryQ=s48-c-k-c0x00ffffff-no-rj"> </div>
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.googleusercontent.com/a4AOsw2qHfuXAooYs7EMkwqJMmW_Wbqebpzm8Xmf2Rj_95QMLnAAFDNRNOJG-sSoairOXvQKrS8=s160-c-k-c0x00ffffff-no-rj"> </div>
                 <div>
                     <h3>
-                     <a href="https://www.youtube.com/watch?v=DLcySA4c5s8&t=05s">Best Responsive Website <br>Theme with Source Code  </a>
+                     <a href="https://youtu.be/Fg9-YH5cp0k?si=4gNqRPblQqILjAUN">Iyer को कैसे लगी Bhide के घर पे चोट? | Taarak Mehta Ka Ooltah Chashmah | Renovation </a>
                     </h3>
-                    <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">DIGITAL CABIN</a>
-                    <p> 10k Views · 9 Jul 2021</p>
+                    <a href="https://youtube.com/@sonyliv?si=X7JFvQ0Q_oRcT5zm">Sony LIV</a>
+                    <p> 7.3M · 1 day ago</p>
+                </div>
+            </div>
+        </div>
+
+		<div class="feed__item">
+            <div class="feed__item__thumbnail">
+			<a href="https://youtu.be/EypTJubsTLI?si=yJm_xFmvC6gzxlwu">
+			<img src="https://th.bing.com/th/id/OIP.S3LO7-A8WcKYiBImvy4ShgHaEM?w=317&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"></div>
+            </a>
+			<div class="feed__item__info">
+                <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.googleusercontent.com/9Ima1mTITFiSn4drddON4kXFg41W0IWQRzDdEJGPp64VZNx3NCTMqDVgRtruUhepbH4-wtLPzA=s160-c-k-c0x00ffffff-no-rj"> </div>
+                <div>
+                    <h3>
+                     <a href="https://www.youtube.com/watch?v=DLcySA4c5s8&t=05s">HARRY POTTER Y LA CAMARA SECRETA PELICULA COMPLETA ESPAÑOL del juego</a>
+                    </h3>
+                    <a href="https://youtu.be/EypTJubsTLI?si=yJm_xFmvC6gzxlwu">Only McQueen</a>
+                    <p>347K views · 5 months ago</p>
                     </div>
                 </div>
             </div>
-
-
 
             <div class="feed__item">
                 <div class="feed__item__thumbnail">
-                <a href="https://www.youtube.com/watch?v=YCWx73EDCAY">
-                <img src="https://i.ytimg.com/vi/YCWx73EDCAY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAwOVES0SpKS2WY8xkgo8luiLHmg"></div>
+                <a href="https://youtu.be/ZpXUEBQMZJU?si=e015XFS2dX-guxHj">
+                <img src="https://i.ytimg.com/vi/1LRKWIOJHDs/maxresdefault.jpg"></div>
                 </a>
                 <div class="feed__item__info">
-                    <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.ggpht.com/E9K3kX2Qg8DzIx47y4m5ypWrwDA75QvYT-KOzOqItawbQqgfnB7HQtxdRvqPjIhZ7vUeat1ryQ=s48-c-k-c0x00ffffff-no-rj"> </div>
+                    <div class=""><img class="feed__item__info__avatar" alt=""  src="https://yt3.googleusercontent.com/9Ima1mTITFiSn4drddON4kXFg41W0IWQRzDdEJGPp64VZNx3NCTMqDVgRtruUhepbH4-wtLPzA=s160-c-k-c0x00ffffff-no-rj"> </div>
                     <div>
                         <h3>
-                         <a href="https://www.youtube.com/watch?v=YCWx73EDCAY"> Creating Movie App TMDB <br> Build  with JavaScript </a>
+                         <a href="https://youtu.be/ZpXUEBQMZJU?si=e015XFS2dX-guxHj">RATATOUILLE 2 PELICULA COMPLETA DE FANS EN ESPAÑOL del juego con Remy la RATA Master Chef</a>
                         </h3>
-                        <a href="https://www.youtube.com/channel/UCTCBO9YrdGSHUCTgz4nuevQ">DIGITAL CABIN</a>
-                        <p> 5.8k Views · 05 Aug 2021</p>
+                        <a href="https://youtu.be/EypTJubsTLI?si=yJm_xFmvC6gzxlwu">Only McQueen</a>
+                        <p> 1.1M views · 10 months ago</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+
+            
 
             <!-- <div class="feed__item">
                 <div class="">
