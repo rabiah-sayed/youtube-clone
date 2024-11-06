@@ -1,0 +1,361 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link rel="icon" href="https://www.svgrepo.com/show/303198/youtube-icon-logo.svg" type="image/x-icon">
+  <title>
+    Stray Kids "Chk Chk Boom" M/V
+  </title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+        }
+        .header .menu-icon {
+            font-size: 24px;
+            margin-right: 20px;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff0000;
+        }
+        .header .search-bar {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+        .header .search-bar input {
+            width: 60%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 2px 0 0 2px;
+        }
+        .header .search-bar button {
+            padding: 8px 16px;
+            border: 1px solid #ddd;
+            border-left: none;
+            background-color: #f8f8f8;
+            cursor: pointer;
+            border-radius: 0 2px 2px 0;
+        }
+        .header .user-icon {
+            font-size: 24px;
+            margin-left: 20px;
+        }
+        .main-content {
+            display: flex;
+            padding: 20px;
+        }
+        .video-section {
+            flex: 2;
+        }
+        .video-section iframe {
+            width: 100%;
+            height: 600px;
+        }
+        .video-details {
+            margin-top: 10px;
+        }
+        .video-details h1 {
+            font-size: 18px;
+            margin: 0;
+        }
+        .video-details .channel-info {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .video-details .channel-info img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .video-details .channel-info .channel-name {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .video-details .channel-info .subscribe-button {
+            margin-left: auto;
+            padding: 8px 16px;
+            background-color: #cc0000;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        .video-details .video-stats {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .video-details .video-stats .views {
+            font-size: 14px;
+            color: #606060;
+        }
+        .video-details .video-stats .actions {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+        .video-details .video-stats .actions button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            margin-left: 10px;
+            font-size: 16px;
+            color: #606060;
+        }
+        .sidebar {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .sidebar .filter-buttons {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .sidebar .filter-buttons button {
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background-color: rgba(0, 0, 0, 0.05);
+            /* background-color: #f0f0f0; */
+            font-size: 14px;
+            padding: 0 12px;
+            line-height: 30px;
+            border-radius: 16px;
+            margin: 12px 12px 12px 0;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .sidebar .filter-buttons button.active {
+            background-color: #e1e1e1;
+        }
+        .sidebar .video-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar .video-list .video-item {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .sidebar .video-list .video-item img {
+            width: 177px;
+            height: 99px;
+            margin-right: 10px;
+            -moz-border-radius:11px;
+            border-radius: 11px;
+        }
+        .sidebar .video-list .video-item .video-info {
+            flex: 1;
+        }
+        .sidebar .video-list .video-item .video-info h3 {
+            font-size: 16px;
+            margin: 0;
+        }
+        .sidebar .video-list .video-item .video-info .channel-name {
+            font-size: 13px;
+            color: #606060;
+        }
+        .sidebar .video-list .video-item .video-info .views {
+            font-size: 12px;
+            color: #606060;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <i class="fas fa-bars menu-icon">
+   </i>
+   <div class="logo">
+    <img src="assets/images/youtube-logo.png">
+   </div>
+   <div class="search-bar">
+    <input placeholder="Search" type="text"/>
+    <button>
+     <i class="fas fa-search">
+     </i>
+    </button>
+    
+   </div>
+   <i class="fas fa-user-circle user-icon">
+   </i>
+  </div>
+  <div class="main-content">
+   <div class="video-section">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0P0aQreFs8w?si=YIlqo5uLEIk1skmU&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </iframe>
+    <div class="video-details">
+     <h1>
+        Stray Kids "Chk Chk Boom" M/V
+     </h1>
+     <div class="channel-info">
+      <img alt="Channel logo" height="40" src="https://yt3.googleusercontent.com/kcV7NQkBm-UvvzVTJvrg1Yf1eHSqi-DLXuZPt_ECa3cHEPefujS951Dxj6KUEQ5i9Z7_fyMUjw=s160-c-k-c0x00ffffff-no-rj" width="40"/>
+      <div class="channel-name">
+        JYP Entertainment
+      </div>
+      <button class="subscribe-button">
+       Subscribe
+      </button>
+     </div>
+     <div class="video-stats">
+      <div class="views">
+       4.6M views • 3 weeks ago
+      </div>
+      <div class="actions">
+       <button>
+        <i class="fas fa-thumbs-up">
+        </i>
+        327K
+       </button>
+       <button>
+        <i class="fas fa-thumbs-down">
+        </i>
+       </button>
+       <button>
+        <i class="fas fa-share">
+        </i>
+        Share
+       </button>
+       <button>
+        <i class="fas fa-download">
+        </i>
+        Download
+       </button>
+       <button>
+        <i class="fas fa-cut">
+        </i>
+        Clip
+       </button>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="sidebar">
+    <div class="filter-buttons">
+     <button class="active">
+      All
+     </button>
+     <button>
+      From the series
+     </button>
+     <button>
+      From American Music Awards
+     </button>
+    </div>
+    <ul class="video-list">
+     <li class="video-item">
+      <img alt="Video thumbnail" height="70" src="https://i.ytimg.com/vi/iSc_bK2Xl-8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAacecQaQ9HA3ldcwqsNdtAcRbLyg" width="120"/>
+      <div class="video-info">
+       <h3>
+        SEVENTEEN(세븐틴) - LOVE, MONEY, FAME (feat. DJ Khaled) @SEVENTEEN [RIGHT HERE] WORLD TOUR IN GOYANG
+       </h3>
+       <div class="channel-name">
+        SEVENTEEN
+       </div>
+       <div class="views">
+        795K views • 8 days ago
+       </div>
+      </div>
+     </li>
+     <li class="video-item">
+      <img alt="Video thumbnail" src="https://i.ytimg.com/vi/dBDkYofMUs4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA0d31Hr00fbpaZDMsNwsHFa14wmg" />
+      <div class="video-info">
+       <h3>
+        Stray Kids - "S-Class" + "LALALALA" [2023 Billboard Music Awards]
+       </h3><br>
+       <div class="channel-name">
+        Billboard Music Awards
+       </div>
+       <div class="views">
+        4.9M views • 11 months ago
+       </div>
+      </div>
+     </li>
+     <li class="video-item">
+      <img alt="Video thumbnail" height="70" src="https://i.ytimg.com/vi/4uUvaQ046OU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpZzR1tium-cl-3XmVaNxXXF0EJg" width="120"/>
+      <div class="video-info">
+       <h3>
+        ATEEZ (에이티즈) 미친 폼 (Crazy Form)+BOUNCY (K-HOT)
+       </h3>
+       <div class="channel-name">
+        WhosfanTV
+       </div>
+       <div class="views">
+        597K views • 7 months ago
+       </div>
+      </div>
+     </li>
+     <li class="video-item">
+      <img alt="Video thumbnail" height="70" src="https://i.ytimg.com/vi/ekr2nIex040/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAGOIiF5_VBAohlLuE0eX2GETvquA" width="120"/>
+      <div class="video-info">
+       <h3>
+        ROSÉ &amp; Bruno Mars - APT. (Official Music Video)
+       </h3><br>
+       <div class="channel-name">
+        ROSÉ
+       </div>
+       <div class="views">
+        215M views • 13 days ago
+       </div>
+      </div>
+     </li>
+     <li class="video-item">
+      <img alt="Video thumbnail" height="70" src="https://i.ytimg.com/vi/J6mQx6c0oIM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_uYGDr09ddoTUzH4KCu8JwLCB4Q" width="120"/>
+      <div class="video-info">
+       <h3>
+        'First Release' JENNIE - Mantra #MCountdown EP.867 | Mnet 241017
+       </h3>
+       <div class="channel-name">
+        Mnet K-POP
+       </div>
+       <div class="views">
+        7.3M views • 13 days ago
+       </div>
+      </div>
+     </li>
+     <li class="video-item">
+      <img alt="Video thumbnail" height="70" src="https://i.ytimg.com/vi/VgqKYWrsXiA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBekEEMCmI6CjMJiWYEGRef-i2C7A" width="120"/>
+      <div class="video-info">
+       <h3>
+        YEJI X HYUNJIN - River + Play With Fire | 2023 MBC Music Festival | KOCOWA+
+       </h3>
+       <div class="channel-name">
+       KOCOWA TV
+       </div>
+       <div class="views">
+        11M views • 10 months ago
+       </div>
+      </div>
+     </li>
+     <li class="video-item">
+      <img alt="Video thumbnail" height="70" src="https://i.ytimg.com/vi/POe9SOEKotk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCPhHa-vspmhaqxuCfxG3trNXTUrA" width="120"/>
+      <div class="video-info">
+       <h3>
+        BLACKPINK - 'Shut Down' M/V
+       </h3><br>
+       <div class="channel-name">
+       BLACKPINK
+       </div>
+       <div class="views">
+        676M views • 2 months ago
+       </div>
+      </div>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </body>
+</html>
