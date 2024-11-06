@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        input[type=email], input[type=password] {
+            width: 70%; 
+            padding: 15px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        .container {
+            width: 30%;
+            max-width: 500px;
+            background-color: white;
+            color: black;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .submitbtn {
+            width: 15%;
+            padding: 12px;
+            font-size: 16px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submitbtn:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            <font color="blue">G</font>
+            <font color="red">o</font>
+            <font color="yellow">o</font>
+            <font color="blue">g</font>
+            <font color="green">l</font>
+            <font color="red">e</font>
+        </h1>
+        
+        <p><font size="+3">Find your email</font></p>
+        <p><font size="+2">Enter your phone number or recovery email</font></p>
+        
+        <form>
+            <input type="email" placeholder="Email or Phone" name="email/phone"><br>
+            <input type="password" placeholder="Create password" name="password"><br>
+            <input type="password" placeholder="Confirm password" name="password"><br><br>
+            <button type="submit" class="submitbtn">Sumit</button>
+        </form>
+    </div>
+</body>
+</html>
