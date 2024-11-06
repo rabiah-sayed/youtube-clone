@@ -91,22 +91,32 @@ body {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
+    /* gap: 5px; */
     position: fixed;
     top: 56px;
     right: 0;
     left: 240px;
     background-color: white;
+
   }
   
+  .chips a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    display: inline-block; /* Make the link inline-block for padding and margin */
+}
+
   .chips__item {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: rgba(0, 0, 0, 0.05);
+    /* background-color: #f0f0f0; */
     font-size: 14px;
     padding: 0 12px;
     line-height: 30px;
     border-radius: 16px;
     margin: 12px 12px 12px 0;
     cursor: pointer;
+    transition: background-color 0.3s;
   }
   
   .chips__item:first-child {
@@ -115,8 +125,13 @@ body {
   
   .chips__item--selected {
     background-color: black;
+    /* background-color: #d0d0d0; */
     color: white;
   }
+
+  .chips__item:hover {
+    background-color: #e0e0e0;
+}
   
   .sidebar {
     width: 210px;
