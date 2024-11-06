@@ -1,0 +1,38 @@
+ <div class="sub-menu-wrap">
+            <div class="sub-menu">
+                <div class="user info">
+                    <img src="image.png">
+                    <h2>Chetna Khandelwal</h2>
+                    <h2>@chetnakhandelwal2006</h2>
+                    <a href="#">View Your Channel</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        .img{
+            width: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            margin-left: 30px;
+        }
+        nav ul{
+            width: 100%;
+            text-align: right;
+        }
+        nav ul li{
+            display:inline-block;
+            list-style: none;
+            margin: 10px 20px;
+        }
+        nav ul li a{
+            color: black;
+            text-decoration: none;
+        }
+        .sub-menu-wrap{
+            position: absolute;
+            top: 100%;
+            right: 10%;
+            width: 320px;
+        }
